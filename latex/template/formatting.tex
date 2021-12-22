@@ -1,0 +1,82 @@
+% Settings used by \usepackage{fancyhdr}
+% Header Content
+\pagestyle{fancyplain}
+\lhead{Left Header}
+\chead{Center Header}
+\rhead{Right Header}
+% Footer Content
+\lfoot{Left Footer}
+\cfoot{Page \thepage\ of \pageref*{LastPage}}
+\rfoot{Right Footer}
+
+% Settings used by \usepackage{hyperref}
+% Used to setup hyperlinks, as well as to properly annotate PDF metadata
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue,
+  urlcolor=blue,
+}
+\urlstyle{sf}
+
+% Settings used by \usepackage{setspace}
+% These commands are used to change the line-spacing of the text.
+% See documentation at https://tex.stackexchange.com/questions/65849/
+% \doublespacing    % for double-spacing
+% \linespread{1.25} % for custom line spacing.
+\onehalfspacing   % for 1.5 spacing
+
+% Settings used by \usepackage[parfill]{parskip}
+% Paragraph indentation. Set to 0em to disable.
+\setlength{\parindent}{3em}
+
+% Settings used by \usepackage{titling}
+% The following command is used to "hang" the default LaTeX title from the top
+% of the page (e.g. like a painting frame). The default LaTeX title sits a bit
+% too low, so the following command sets it higher.
+\setlength{\droptitle}{-2em}
+
+% Settings used by \usepackage{microtype}
+% These custom hyphenation rules are used to discourage excessive hyphenation
+\pretolerance=5000
+\tolerance=9000
+\emergencystretch=0pt
+\righthyphenmin=4
+\lefthyphenmin=4
+\microtypecontext{spacing=nonfrench}
+
+% Settings used by \usepackage{pgfplots}
+% \pgfplotsset{compat=1.17}
+% \pgfplotsset{samples=300}
+
+% Settings used by titlesec
+% For section, subsection, and subsubsection numberings to be in margin.
+% Sourced from: https://tex.stackexchange.com/a/523014
+\newcommand{\marginsecnumber}[1]{%
+  \makebox[0pt][r]{#1\hspace{6pt}}%
+}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}
+  {\marginsecnumber\thesection}
+  {0pt}
+  {}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\marginsecnumber\thesubsection}
+  {0pt}
+  {}
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}
+  {\marginsecnumber\thesubsubsection}
+  {0pt}
+  {}
+\titleformat{\paragraph}[runin]
+  {\normalfont\normalsize\bfseries}
+  {\marginsecnumber\theparagraph}
+  {0pt}
+  {}
+\titleformat{\subparagraph}[runin]
+  {\normalfont\normalsize\bfseries}
+  {\marginsecnumber\thesubparagraph}
+  {0pt}
+  {}
+\titlespacing*{\subsection}{0pt}{*3.25}{*1.5}%

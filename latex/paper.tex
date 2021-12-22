@@ -1,0 +1,56 @@
+% LaTeX Generic essay template
+% Copyright (C) 2017  Shen Zhou Hong <shen@hong.io>
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+% For more information on documentclass configuration, see:
+% https://texblog.org/2013/02/13/latex-documentclass-options-illustrated/#formula
+\documentclass[
+  10pt,       % 10pt, 11pt, 12pt
+  letterpaper,    % a4paper, letterpaper, a5paper, b5paper, executivepaper, legalpaper
+  final,      % draft
+  onecolumn,  % twocolumn
+  oneside,    % twoside
+  notitlepage % titlepage
+]{article}
+
+% Template preamble files. These should not be modified.
+\input{template/packages.tex}
+\input{template/formatting.tex}
+
+% Project-specific preamble files. Include additional packages here.
+\input{configuration.tex}
+
+% Document Title, Author, and Date
+\title{
+  \LaTeX\ Essay Template \\ for the Humanities and Sciences
+}
+\author{
+  Shen Zhou Hong \and Institution
+}
+\date{\today}
+
+% Document Begins
+\begin{document}
+\maketitle
+% \tableofcontents % Optional table-of-contents
+% \clearpage
+
+% Includes content body. If the essay is very long, it might make sense to split
+% the content across multiple .tex files, and include them all here, e.g.
+% \input{sections/preamble.tex}
+\input{sections/body.tex}
+\include{sections/endpage.tex}
+
+\end{document}
