@@ -1,14 +1,14 @@
 \Author{Shen Zhou Hong}
 \Title{
-  Default PDF Document Title (For PDF/A Compatibility)
+  Reading Notes: On Jean-Paul Sartre's Being and Nothingness
 }
 \Language{English}
-\Keywords{keyword1\sep keyword2\sep keyword3}
+\Keywords{Notes\sep Jean-Paul Sartre\sep Being and Nothingness\sep Philosophy\sep St. John's College\sep Senior Year\sep Existentialism}
 \Publisher{Self-Published}
 \Subject{
-  Description of the PDF's subject
+  A collection of notes that I took while reading Jean-Paul Sartre's Being and Nothingness.
 }
 \Date{2021-11-23}
 \PublicationType{pamphlet}
-\Source{https://github.com/ShenZhouHong/latex-essay}
-\URLlink{https://github.com/ShenZhouHong/latex-essay}
+\Source{https://github.com/ShenZhouHong/sartre-notes}
+\URLlink{https://github.com/ShenZhouHong/sartre-notes}

@@ -34,23 +34,29 @@
 
 % Document Title, Author, and Date
 \title{
-  \LaTeX\ Essay Template \\ for the Humanities and Sciences
+  Reading Notes: \\ On Jean-Paul Sartre's \emph{Being and Nothingness}
 }
 \author{
-  Shen Zhou Hong \and Institution
+  Shen Zhou Hong \and St. John's College
 }
 \date{\today}
 
 % Document Begins
 \begin{document}
 \maketitle
-% \tableofcontents % Optional table-of-contents
+\begin{abstract}
+\noindent
+  A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Sections are identical with Sartre's work.
+\end{abstract}
+\tableofcontents % Optional table-of-contents
 % \clearpage
 
 % Includes content body. If the essay is very long, it might make sense to split
 % the content across multiple .tex files, and include them all here, e.g.
 % \input{sections/preamble.tex}
-\input{sections/body.tex}
+\include{sections/body.tex}
+
+\appendix
 \include{sections/endpage.tex}
 
 \end{document}
