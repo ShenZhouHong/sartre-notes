@@ -65,21 +65,25 @@
 
 % Begin custom geometry
 \newgeometry{
-  textwidth=\textwidth,  % Keep default height and width options
+  % Preserve the LaTeX default \textwidth and \textheight
+  textwidth =\textwidth,
   textheight=\textheight,
-  headsep=0.5cm,
-  footskip=1cm,
+  % Include the margin notes space when doing body calculations
+  includemp=true,
+  % Increase margin notes width and seperation
   marginparwidth=4cm,
   marginparsep=0.5cm,
-  includemp=true,
-  hcentering=true,       % Center all margins
-  vcentering=true
+  % Center doucment body vertically and horizontally
+  hcentering=true,
+  vcentering=true,
+  % Minor tweaks to header and footer seperation
+  headsep   =0.5cm,
+  footskip  =1cm,
 }
 
 % Make sure that the header and footer overhang into the marginnotes area
 % We must call this everytime we update the page geometry, otherwise the
 % values WILL be stale!
-
 \setlength{\headwidth}{\textwidth}
 \addtolength{\headwidth}{\marginparsep}
 \addtolength{\headwidth}{\marginparwidth}
