@@ -52,7 +52,8 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-\noindent A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
+  \noindent
+  A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
 \end{abstract}
 \tableofcontents % Optional table-of-contents
 % \clearpage
@@ -60,6 +61,27 @@
 % Includes content body. If the essay is very long, it might make sense to split
 % the content across multiple .tex files, and include them all here, e.g.
 % \input{sections/preamble.tex}
+
+% Begin custom geometry
+\newgeometry{
+  textwidth=\textwidth,  % Keep default height and width options
+  textheight=\textheight,
+  marginparwidth=3.5cm,
+  marginparsep=1cm,
+  includemp=true,
+  hcentering=true,       % Center all margins
+  vcentering=true
+}
+
+% Make sure that the header and footer overhang into the marginnotes area
+% We must call this everytime we update the page geometry, otherwise the
+% values WILL be stale!
+
+\setlength{\headwidth}{\textwidth}
+\addtolength{\headwidth}{\marginparsep}
+\addtolength{\headwidth}{\marginparwidth}
+
+\pagestyle{fancy}
 
 \include{sections/introduction.tex}
 
