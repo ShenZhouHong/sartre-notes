@@ -66,6 +66,14 @@
 
 \SetCiteCommand{\autocite}
 
-\usepackage{hyperref}               % So citations can be links
+\usepackage[a-3u, mathxmp]{pdfx}
+
+% Settings used by \usepackage{hyperref}
+% Used to setup hyperlinks, as well as to properly annotate PDF metadata
+\hypersetup{
+  colorlinks=true,
+  allcolors=blue,
+}
+\urlstyle{sf}
 
 % Any additional user configuration goes below
