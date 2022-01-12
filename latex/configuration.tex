@@ -23,32 +23,38 @@
 % \usepackage{xeCJK}                  % For typesetting CJK characters
 % \usepackage[l2tabu, orthodox]{nag}  % Verbose warnings for typesetting
 
+\usepackage{extramarks}
 \usepackage{enumitem}               % Makes the lists more compact, saving paper.
 \setlist{nosep}
+
+\usepackage{marginnote}
+\renewcommand*{\marginfont}{\scriptsize\slshape}
+
+% Force margin notes to use (sloppy) justification
+\renewcommand\raggedrightmarginnote{\sloppy}
+\renewcommand\raggedleftmarginnote{\sloppy}
 
 % Settings used by \usepackage{fancyhdr}
 % Header Content
 
-% Update the plain heading format so that the first page includes page n of m
-\fancypagestyle{plain}{
-  \fancyhead{}
-  \renewcommand{\headrule}{}
-  \renewcommand{\footrule}{}
-}
-
 \fancypagestyle{fancy}{
   % Add a line to the footer as well as the header
-  \renewcommand{\headrulewidth}{0.4pt}
-  \renewcommand{\footrulewidth}{0.4pt}
-
+  \renewcommand\headrulewidth{0.4pt}
   \fancyhead[L]{Senior Seminar}
   % \chead{}
   \fancyhead[R]{St. John's College}
+
   % Footer Content
-  % \lfoot{Left Footer}
   \fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
-  % \rfoot{Right Footer}
 }
+
+% Update the plain heading format so that the first page includes page n of m
+\fancypagestyle{plain}{
+  \renewcommand\headrulewidth{0pt}
+  \fancyhead{}
+  \fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+}
+
 % The biblatex package should go last!
 % FYI: the biblatex package is used to generate a bibliography. However, unless
 % intense citation management (e.g. 5+ sources) is used, biblatex should not
@@ -59,5 +65,7 @@
 \addbibresource{citations.bib} % Biblatex. See includes/formatting.tex
 
 \SetCiteCommand{\autocite}
+
+\usepackage{hyperref}               % So citations can be links
 
 % Any additional user configuration goes below
