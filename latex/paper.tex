@@ -100,9 +100,15 @@
 
 \include{sections/part-4.tex}
 
-\include{sections/conclusion.tex}
+% Reset to default page geometry.
+\restoregeometry
+\setlength{\headwidth}{\textwidth}
+\pagestyle{plain}
 
 \appendix
+
+\include{sections/conclusion.tex}
+
 \include{sections/endpage.tex}
 
 \end{document}
