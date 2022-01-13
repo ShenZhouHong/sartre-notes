@@ -1,6 +1,10 @@
 # Notes on Jean-Paul Sartre's Being and Nothingness
 For research on ontology.
 
+Senior Essay Title Ideas:
+
+* On the Emergence of Being in Artificial Minds: An Ontology of Artificial Intelligence
+
 ## Compiling document
 
 In order to compile latex source files, run `make` in the terminal:
