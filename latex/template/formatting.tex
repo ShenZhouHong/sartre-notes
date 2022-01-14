@@ -55,6 +55,14 @@
 \newcommand{\marginsecnumber}[1]{%
   \makebox[0pt][r]{#1\hspace{6pt}}%
 }
+\titleformat{\chapter}
+  {\normalfont\Large\bfseries}
+  {\marginsecnumber\thesection}
+  {0pt}
+  {}
+% Remove the extra white space above the chapter
+\titlespacing*{\chapter}{0pt}{0pt}{0pt}
+
 \titleformat{\section}
   {\normalfont\Large\bfseries}
   {\marginsecnumber\thesection}
