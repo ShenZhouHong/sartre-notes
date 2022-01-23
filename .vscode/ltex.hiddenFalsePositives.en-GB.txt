@@ -1,0 +1,10 @@
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwhich is its usage of incompatible dualisms.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QΟὐσία, translit.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qby noumenal, we mean the material (and potentially inaccessible) world outside of us, versus the phenomenal world which consists of what appears to us.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QEidetic reduction: enwiki-def a technique in the study of essences in phenomenology whose goal is to identify the basic components of phenomena.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qof the Phenomenon.\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\Q[7]sartre Although the being of the phenomenon is co-extensive with the phenomenon, it must escape the phenomenal condition in which existence is possible [only as a condition] that it is revealed [i.e. a phenomenon].\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QIn other words, there is no [act of] consciousness that does not posit a transcendent object Consciousness is a posit-ional consciousness of objects in the world, where consciousness has no content, but only aims to reach (or in other words, posits) towards objects.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qof Being and the Being.\\E$"}
+{"rule":"INTERJECTIONS_PUNCTUATION","sentence":"^\\QOh boy.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QRevealed-relevation: A relevation that is not only objective (in the sense that an object has the status of a relevation), but it also has a subjective component, in the sense that the object's relevation is likewise revealed to some subject.\\E$"}
