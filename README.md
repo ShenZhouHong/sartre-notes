@@ -4,6 +4,7 @@ For research on ontology.
 Senior Essay Title Ideas:
 
 * On the Emergence of Being in Artificial Minds: An Ontology of Artificial Intelligence
+* On the Teleology of Human-Reality: Striving towards Godhood
 
 ## Compiling document
 

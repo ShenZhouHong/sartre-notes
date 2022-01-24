@@ -70,3 +70,7 @@ Sartrean
 world-of-facticity
 ungracefulness
 facticities
+pro-ject
+XeLaTeX
+biblatex
+pro-jected

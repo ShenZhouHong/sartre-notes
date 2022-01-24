@@ -71,3 +71,10 @@
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QJust because our choice is absolute, it is fragile, which is to say that, by positing our freedom through it, we posit at the same time the constant possibility of becoming something that is on this side and pastified, in relation to an over on that side that I will be.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\Q[637]sartre The given in itself in the form of resistance or aide is revealed only in the light of the pro-jecting freedom.\\E$"}
 {"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QTherefore it is only in and through freedom's free arising that the world can develop and reveal the resistances that may make the projected end impossible to achieve.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QThis is because due to the presence of figures, tables, and biblatex databases, latex needs to be called multiple times in some cases.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QLatexmk should be included in your latex installation, but if it is now, you may download it here:\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QAdditionally, this template uses XeLaTeX by default, as it allows the inclusion of unicode characters in the latex source files.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QRelated documentation\nFor an overview of how to populate biblatex \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q files, visit the biblatex-mla manual at CTAN.\\E$"}
+{"rule":"THIS_NNS","sentence":"^\\QJust like how our motivations completely come from our freedom (which completely comes from our being) – we want an in-itself those facticity completely comes from our freedom – and is not an arbitrary child of contingency:\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QReading Notes: On Jean-Paul Sartre's Being and Nothingness, a Study in Phenomenological Ontology Shen Zhou Hong St. John's College\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QHeadings, sections and subsections are identical with Sartre's work.\\E$"}
