@@ -23,7 +23,7 @@
   onecolumn,  % twocolumn
   oneside,    % twoside
   notitlepage % titlepage
-]{report}
+]{book}
 
 % Template preamble files. These should not be modified.
 \input{template/accessibility.tex}
@@ -50,18 +50,19 @@
 
 % Document Begins
 \begin{document}
+
 \pagestyle{plain}
 \maketitle
-\begin{abstract}
-  \noindent
-  A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
-\end{abstract}
+\noindent
+A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
 \tableofcontents % Optional table-of-contents
 % \clearpage
 
 % Includes content body. If the essay is very long, it might make sense to split
 % the content across multiple .tex files, and include them all here, e.g.
 % \input{sections/preamble.tex}
+
+\include{sections/epitome.tex}
 
 % Begin custom geometry
 \newgeometry{
