@@ -61,3 +61,8 @@
 {"rule":"DT_PRP","sentence":"^\\QWhat separates our being-for-itself from our simple being (the itself)?\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QIn this section, Sartre asks whether the being-of-phenomena can be found in knowledge,Does this question reduce itself to simply asking whether being is reduced to appearances?\\E$"}
 {"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qwhich is the proportionality of an appearance's appearing (e.g. we have more knowledge of a phenomenon, when it appears more strongly to us).\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE","sentence":"^\\Q[502]sartre [When] it seems I have achieved my aim, since I possess the being who has the key to my objecthood and I am able to make her experience my freedom in a thousand ways.\\E$"}
+{"rule":"BOTH_AS_WELL_AS","sentence":"^\\QIn this section, Sartre explores both the ontology of the Other, as well as how our ontology becomes affected by the presence (and even the mere possibility) of the Other – in what Sartre terms the being-for-the-Other.\\E$"}
+{"rule":"MISSING_NOUN","sentence":"^\\QThe is the Other is a radical negation of my self-hood?\\E$"}
+{"rule":"EN_COMPOUNDS","sentence":"^\\QThe is the Other is a radical negation of my self-hood?\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QConsciousness is a posit-ional consciousness of objects in the world, where consciousness has no content, but only aims to reach (or in other words, posits) towards objects.\\E$"}
