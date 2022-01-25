@@ -78,3 +78,7 @@
 {"rule":"THIS_NNS","sentence":"^\\QJust like how our motivations completely come from our freedom (which completely comes from our being) – we want an in-itself those facticity completely comes from our freedom – and is not an arbitrary child of contingency:\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QReading Notes: On Jean-Paul Sartre's Being and Nothingness, a Study in Phenomenological Ontology Shen Zhou Hong St. John's College\\E$"}
 {"rule":"WHITESPACE_RULE","sentence":"^\\QHeadings, sections and subsections are identical with Sartre's work.\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QThereafter my work will appear as a creation that is continuous but frozen into the in-itself it forever bears my mark.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QAccording to the translator, the use of the french verb jouissance has strong sexual connotations.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QAccording to the translator, the use of the French verb jouissance has strong and unmistakable sexual connotations.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QSartre ends Part IV with this final parting thought: [796]sartre Every human-reality is a Passion, in that its project is to lose itself in order to found being and at the same time to constitute the in-itself as escaping contingency by being its own foundation, the Ens causa sui that the religions know as God In this way man's Passion is the opposite of Christ's, because man loses himself as man in order that God should be born.\\E$"}
