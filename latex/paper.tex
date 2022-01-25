@@ -21,8 +21,8 @@
   letterpaper,    % a4paper, letterpaper, a5paper, b5paper, executivepaper, legalpaper
   final,      % draft
   onecolumn,  % twocolumn
-  oneside,    % twoside
-  notitlepage % titlepage
+  twoside,    % twoside
+  notitlepage, % titlepage
 ]{book}
 
 % Template preamble files. These should not be modified.
@@ -51,10 +51,31 @@
 % Document Begins
 \begin{document}
 
+% Begin custom geometry
+\newgeometry{
+  % Preserve the LaTeX default \textwidth and \textheight
+  textwidth =\textwidth,
+  textheight=\textheight,
+  % Include the margin notes space when doing body calculations
+  includemp=false,
+  % Increase margin notes width and seperation
+  marginparwidth=\marginparwidth,
+  marginparsep=\marginparsep,
+  % Center doucment body vertically and horizontally
+  hcentering=true,
+  vcentering=true,
+  % Minor tweaks to header and footer seperation
+  headsep   =0.5cm,
+  footskip  =1cm,
+  bindingoffset=0cm
+}
+
 \pagestyle{plain}
 \maketitle
 \noindent
-A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
+My personal collection of notes, thoughts, and contemplations written during my 2021 -- 2022 study of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. An approximately 100-page summary of an 800-page monograph, beginning with a 10-page \enquote{epitome.}
+
+% A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
 \tableofcontents % Optional table-of-contents
 % \clearpage
 
@@ -74,7 +95,7 @@ A collection of notes, quotations, and miscellaneous remarks written during my r
   % Include the margin notes space when doing body calculations
   includemp=true,
   % Increase margin notes width and seperation
-  marginparwidth=0.333333\textwidth,
+  marginparwidth=0.3\textwidth,
   marginparsep=0.5cm,
   % Center doucment body vertically and horizontally
   hcentering=true,
@@ -82,6 +103,7 @@ A collection of notes, quotations, and miscellaneous remarks written during my r
   % Minor tweaks to header and footer seperation
   headsep   =0.5cm,
   footskip  =1cm,
+  bindingoffset=2cm
 }
 
 % Make sure that the header and footer overhang into the marginnotes area
