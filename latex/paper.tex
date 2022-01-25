@@ -39,7 +39,7 @@
 
 % Document Title, Author, and Date
 \title{
-  \textbf{Reading Notes:} \\
+  \textbf{Notes and Reflections:} \\
   On Jean-Paul Sartre's \emph{Being and Nothingness},\\
   a Study in Phenomenological Ontology
 }
@@ -72,8 +72,13 @@
 
 \pagestyle{plain}
 \maketitle
+
+\vfill
+
 \noindent
-My personal collection of notes, thoughts, and contemplations written during my 2021 -- 2022 study of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. An approximately 100-page summary of an 800-page monograph, beginning with a 10-page \enquote{epitome.}
+\emph{My personal collection of notes, thoughts, and contemplations written during my 2021 -- 2022 study of Jean-Paul Sartre's \emph{Being and Nothingness}, in preparation for my upcoming Senior Essay at St. John's College. An approximately 100-page summary of an 800-page monograph, with a 10-page \enquote{epitome} that presents a sketch of Sartre's pursuit.}
+
+\vspace{2cm}
 
 % A collection of notes, quotations, and miscellaneous remarks written during my reading of Jean-Paul Sartre's \emph{Being and Nothingness}, in fulfilment of my Senior Essay at St. John's College. Headings, sections and subsections are identical with Sartre's work.
 \tableofcontents % Optional table-of-contents
@@ -126,7 +131,26 @@ My personal collection of notes, thoughts, and contemplations written during my 
 \include{sections/part-4.tex}
 
 % Reset to default page geometry.
-\restoregeometry
+
+% Begin custom geometry
+\newgeometry{
+  % Preserve the LaTeX default \textwidth and \textheight
+  textwidth =\textwidth,
+  textheight=\textheight,
+  % Include the margin notes space when doing body calculations
+  includemp=false,
+  % Increase margin notes width and seperation
+  marginparwidth=\marginparwidth,
+  marginparsep=\marginparsep,
+  % Center doucment body vertically and horizontally
+  hcentering=true,
+  vcentering=true,
+  % Minor tweaks to header and footer seperation
+  headsep   =0.5cm,
+  footskip  =1cm,
+  bindingoffset=0cm
+}
+
 \setlength{\headwidth}{\textwidth}
 \pagestyle{plain}
 

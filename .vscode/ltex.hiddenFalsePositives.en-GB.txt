@@ -82,3 +82,20 @@
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QAccording to the translator, the use of the french verb jouissance has strong sexual connotations.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QAccording to the translator, the use of the French verb jouissance has strong and unmistakable sexual connotations.\\E$"}
 {"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\QSartre ends Part IV with this final parting thought: [796]sartre Every human-reality is a Passion, in that its project is to lose itself in order to found being and at the same time to constitute the in-itself as escaping contingency by being its own foundation, the Ens causa sui that the religions know as God In this way man's Passion is the opposite of Christ's, because man loses himself as man in order that God should be born.\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QAn approximately 100-page summary of an 800-page monograph, beginning with a 10-page epitome.\\E$"}
+{"rule":"ENGLISH_WORD_REPEAT_BEGINNING_RULE","sentence":"^\\QWhat is Sartre's conception of nothingness, and why does he place it central to being?\\E$"}
+{"rule":"PHRASE_REPETITION","sentence":"^\\QIt's a mantra that chants I am I am I am I am without limit.\\E$"}
+{"rule":"PHRASE_REPETITION","sentence":"^\\QIt would be one with the ceaseless chant of I am I am I am I am until there is no more distinction between the subject and the object, and hence the phenomena would have no being at all.\\E$"}
+{"rule":"PHRASE_REPETITION","sentence":"^\\QThe mantra goes: I am I am I am I AM NOT – and all of a sudden, we have a being that is not the being-of-consciousness.\\E$"}
+{"rule":"SENT_START_CONJUNCTIVE_LINKING_ADVERB_COMMA","sentence":"^\\QHence nothingness can neither be before, after, nor outside being.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qprotrusion = true, expansion = true, tracking = true, factor = 1000, patch = all, final\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qencoding = * = 1000, , = , 1000, = 1000, , .\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Qencoding = * = 1000, , = , 1000, = 1000, , .\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\Qencoding = * = 1000, , = , 1000, = 1000, , .\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q= , 1000, , = , 1000, « = 1000, , » = , 1000, ( = 500 , , ) = , 500 , - = , 500\\E$"}
+{"rule":"DOUBLE_PUNCTUATION","sentence":"^\\Q= , 1000, , = , 1000, « = 1000, , » = , 1000, ( = 500 , , ) = , 500 , - = , 500\\E$"}
+{"rule":"EN_UNPAIRED_BRACKETS","sentence":"^\\Q\"\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_GB","sentence":"^\\Q[runin] .\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q[runin] .\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qfancy\\E$"}
