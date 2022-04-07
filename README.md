@@ -1,14 +1,23 @@
 # Notes on Jean-Paul Sartre's Being and Nothingness
-For research on ontology.
 
-Senior Essay Title Ideas:
+An comprehensive set of notes on Jean Paul Sartre's Being and Nothingness. Taken during the course of my study in preparation for my 2022 Senior Essay at St. John's College. These notes follow the organisation and progression of Sartre's monograph, and can be followed along in their reading.
 
-* On the Emergence of Being in Artificial Minds: An Ontology of Artificial Intelligence
-* On the Teleology of Human-Reality: Striving towards Godhood
+![Preview of the notes.](./preview.png)
+
+## Accessing document
+The notes are written in LaTeX, a document typesetting language. Compiled (ready-to-print) versions of these notes are available for both A4-paper, and U.S Letter size paper. 
+
+* [**Sartre Notes Single Sided, U.S. Letter Size (Best for Scrolling)**](./sartre-notes-single-side-letter.pdf)
+* [**Sartre Notes Double-Sided U.S. Letter Size (Best for Printing)**](./sartre-notes-double-side-letter.pdf)
+* [**Sartre Notes Single Sided, A4 Size (Best for Scrolling)**](./sartre-notes-single-side-a4.pdf)
+* [**Sartre Notes Double-Sided A4 Size (Best for Printing)**](./sartre-notes-double-side-a4.pdf)
+
+The double-sided variants are best for printing. When printed and bound double-sided, the margin notes will always face the exterior of the binding. The single-sided variants are best for scrolling.
 
 ## Compiling document
 
 In order to compile latex source files, run `make` in the terminal:
+
 ```
 cd latex
 make

@@ -18,7 +18,7 @@
 % https://texblog.org/2013/02/13/latex-documentclass-options-illustrated/#formula
 \documentclass[
   10pt,       % 10pt, 11pt, 12pt
-  letterpaper,    % a4paper, letterpaper, a5paper, b5paper, executivepaper, legalpaper
+  a4paper,    % a4paper, letterpaper, a5paper, b5paper, executivepaper, legalpaper
   final,      % draft
   onecolumn,  % twocolumn
   twoside,    % twoside
@@ -26,16 +26,11 @@
 ]{book}
 
 % Template preamble files. These should not be modified.
-\input{template/accessibility.tex}
-
 \input{template/packages.tex}
 
 \input{template/formatting.tex}
 
 \input{template/lua-protrusion.tex}
-
-% Project-specific preamble files. Include additional packages here.
-\input{configuration.tex}
 
 % Document Title, Author, and Date
 \title{
@@ -46,7 +41,7 @@
 \author{
   Shen Zhou Hong \and St. John's College
 }
-\date{\today}
+\date{February 3rd, 2022}
 
 % Document Begins
 \begin{document}
